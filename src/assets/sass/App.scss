@@ -1,0 +1,43 @@
+// Color Schema
+$black: #181818;
+$white: #F1F1F1;
+
+$blue: #3EA1DB;
+$purple: #574AE8;
+
+$title: #313131;
+$text: #B6B6B6;
+
+$linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+
+// Fonts
+@font-face {
+    font-family: InterRegular;
+    src: url('../fonts/Inter-Regular.woff2');
+}
+@font-face {
+    font-family: InterMedium;
+    src: url('../fonts/Inter-Medium.woff2');
+}
+@font-face {
+    font-family: LexendDecaRegular;
+    src: url('../fonts/LexendDeca-Regular.woff2');
+}
+
+// Global Assets
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "InterRegular";
+    letter-spacing: 1px;
+}
+
+// Styles
+@import 'components/header';

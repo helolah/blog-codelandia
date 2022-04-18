@@ -1,12 +1,13 @@
 // Color Schema
 $black: #181818;
-$white: #F1F1F1;
+$white: #F3F5F7;
 
 $blue: #3EA1DB;
 $purple: #574AE8;
 
 $title: #313131;
 $text: #B6B6B6;
+
 
 $linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 
@@ -37,6 +38,7 @@ $linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 body {
     font-family: "InterRegular";
     letter-spacing: 1px;
+    background-color: $white
 }
 
 // Styles

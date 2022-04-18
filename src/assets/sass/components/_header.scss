@@ -18,6 +18,8 @@ header {
             user-select: none;
             cursor: default;
             margin-bottom: 1rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     }
 
@@ -42,6 +44,8 @@ header {
                 background: rgba(255, 255, 255, 0.2);
                 font-family: 'InterRegular' !important;
                 color: $white;
+                overflow: hidden;
+                text-overflow: ellipsis;
 
                 &:focus {
                     outline: none;
@@ -54,7 +58,7 @@ header {
                 }
             }
 
-            i {
+            .search-icon {
                 color: $white;
                 font-size: 20px;
                 float: left;

@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
 function Header() {
     return (
         <header>
@@ -6,7 +9,7 @@ function Header() {
             </div>
             <div className="search-box">
                 <form action="#" method="POST" id="search">
-                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
                     <input type="text" name="search-bar" id="search-bar" placeholder="Pesquisar no blog"/>
                 </form>
                 <div className="white-space"></div>

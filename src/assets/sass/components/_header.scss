@@ -33,6 +33,8 @@ header {
             display: flex;
             align-items: center;
             justify-content: flex-start;
+            overflow: hidden;
+            text-overflow: ellipsis;
 
             input[type=text] {
                 width: 100%;
@@ -46,8 +48,10 @@ header {
                 color: $white;
                 overflow: hidden;
                 text-overflow: ellipsis;
+                box-shadow: none;
+                transition: box-shadow 0.25s ease-in-out;
 
-                &:focus {
+                &:focus, &:hover {
                     outline: none;
                     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 }

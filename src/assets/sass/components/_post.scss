@@ -1,0 +1,89 @@
+main {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.post {
+    padding: 1.5rem;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    margin: 2rem 0;
+
+    .short-post-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $text;
+        font-family: 'LexendDecaRegular' !important;
+        font-size: 16px;
+
+        span {
+            // max-width: 120px;
+            // width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .heart-icon {
+            cursor: pointer;
+            transition: color 0.25s ease-in-out;
+            font-size: 20px;
+            user-select: none;
+            
+            &:hover {
+                opacity: 0.8;
+                color: $red;
+            }
+        }
+        
+        .heart-icon-selected {
+            display: none;
+            cursor: pointer;
+            font-size: 20px;
+            color: $red;
+            opacity: 0.8;
+            user-select: none;
+            transition: opacity 0.25s ease-in-out;
+    
+            &:hover {
+                color: $red;
+                opacity: 1;
+            }
+        }
+    }
+
+    .short-post-content {
+        margin-top: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        h4 {
+            color: $title;
+            font-family: 'InterMedium' !important;
+            font-size: 20px;
+            max-height: 200ch;
+            overflow: hidden;
+        }
+        
+        p {
+            margin: 1rem 0;
+            color: $text;
+            font-family: 'LexendDecaRegular' !important;
+            line-height: 2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $blue;
+            transition: color 0.25s ease-in-out;
+            
+            &:hover {
+                text-decoration: none;
+                color: $purple;
+            }
+        }
+    }
+}

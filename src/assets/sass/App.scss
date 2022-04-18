@@ -4,6 +4,7 @@ $white: #F3F5F7;
 
 $blue: #3EA1DB;
 $purple: #574AE8;
+$red: #D82148;
 
 $title: #313131;
 $text: #B6B6B6;
@@ -44,3 +45,4 @@ body {
 // Styles
 @import 'components/components';
 @import 'components/header';
+@import 'components/post';

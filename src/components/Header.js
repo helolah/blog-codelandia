@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <div className="header-titles">
-                <h1>Codelândia</h1>
+                <h1>Blog da Helolah</h1>
             </div>
             <div className="search-box">
                 <form action="#" method="POST" id="search">

@@ -1,5 +1,6 @@
 import Header from './components/Header.js';
 import ShortPost from './components/ShortPost.js';
+import Footer from './components/Footer.js';
 
 function App() {
     return (
@@ -8,7 +9,10 @@ function App() {
             <div className="white-space"></div>
             <main>
                 <ShortPost />
+                <ShortPost />
             </main>
+            <div className="white-space"></div>
+            <Footer />
         </div>
     );
 }

@@ -9,6 +9,7 @@ function Header() {
                     <i className="fa-solid fa-magnifying-glass"></i>
                     <input type="text" name="search-bar" id="search-bar" placeholder="Pesquisar no blog"/>
                 </form>
+                <div className="white-space"></div>
             </div>
         </header>
     );
